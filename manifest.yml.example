@@ -3,8 +3,8 @@ domain: <app domain>
 applications:
 - name: pcf-get-events-js
   host: pcf-events
-  memory: 256M
-  disk_quota: 56M
+  memory: 128M
+  disk_quota: 64M
   buildpack: https://github.com/cloudfoundry/nodejs-buildpack
   instances: 2
   path: ./server/
